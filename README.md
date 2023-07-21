@@ -1,12 +1,12 @@
 # Pretty Goodness
 
-String to String prettafication for text based data serialisation formats (only JSON is supported currently).
+String to String prettification for text based data serialisation formats (only JSON is supported currently).
 
 For data serialisation [Serde](https://serde.rs/) is the gold standard.
 
 However if you get some serialised data and it needs to be prettyafied Serde would probably be the default choice for doing this.
 
-To do the prettafication Serde Serialises and then deserialises the data from and to text based formats.
+To do the prettification Serde Serialises and then deserialises the data from and to text based formats.
 
 Wouldn't it be more efficient if the serialisation and deserialisation steps could be avoided?
 
