@@ -1,0 +1,21 @@
+[package]
+name = "pretty_goodness"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "String to String prettification"
+readme = "README.md"
+repository = "https://github.com/coruscateor/pretty_goodness"
+homepage = "https://coruscateor.com/projects/pretty_goodness"
+keywords = ["prettification", "String", "pretty", "indent", "outdent"]
+categories = ["parsing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#delegate = "0.*"
+#corlib = { path="../corlib" } #Do not remove
+corlib = "0.1.0"
+paste = "1.0.*"
+
+
